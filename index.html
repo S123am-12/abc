@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <title>Practice</title>
+</head>
+<body>
+    <div class="container">
+        <input type="text" name="" id="empName" / placeholder="Enter employee name" class="ex1"><br />
+        <input type="text" name="" id="empSalary" / placeholder="Enter employee salary" class="ex1"><br />
+        <button onclick="addEmployee()" class="ex2">Add employee</button>
+    </div>
+    <div>
+        <button onclick="sortOnName()" class="ex2">sort by name</button>
+    </div>
+    <div>
+        <button onclick="sortBysalary()" class="ex2">sort salary</button>
+    </div>
+    <div>
+        <button onclick="remove()" class="ex2">Remove</button>
+    </div>
+    <div>
+        <button onclick="top3()" class="ex2">top 3</button>
+    </div>
+
+    <table id="employeeTable" border="1" class="tacle">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Employee rows will be populated here -->
+        </tbody>
+    </table>
+
+    <script src="index.js"></script>
+</body>
+</html>
